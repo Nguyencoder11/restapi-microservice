@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from schemas.auth import LoginRequest, TokenResponse
+from ..schemas.auth import LoginRequest, TokenResponse
 import jwt
 import datetime
 
